@@ -9,6 +9,8 @@ import javax.persistence.Id;
 import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+
+//inverse side
 @Entity
 @Table(name= "Address")
 @SequenceGenerator(name= "seq",sequenceName= "seq_address",initialValue = 1, allocationSize = 1)
